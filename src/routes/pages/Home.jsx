@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-// import { sreach } from '../api/blog';
 import LazyLoad from 'react-lazyload';
-// import Sreach from './compoment/sreach';
 import 'date-fns'
 import Search from '../compoment/Search';
 import { search } from '../../api/blog';
